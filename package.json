@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "css": "^3.0.0",
+    "mongodb": "^6.8.0",
+    "tailwind": "^4.0.0"
+  },
+  "name": "prj1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
